@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML tutrial</title>
+</head>
+<body>
+<h1 class="title"></h1>
+<script src="abcjs-basic-min.js" ></script>
+<div id="note"></div>
+<script>
+    var abcNotation = 
+    `L:1/2 \n 
+    V:1 \n K:C \n [B,D][DG][GB][Bd][G,D][B,G][DB][Gd][Bg]|| [A,D][DF][FA][Ad][df][A,f][DA][Fd][Af][da]|| [A,C][CF][FA][Ac][cf][CA][Fc][Af][ca]||[EG][Gc][ce][Ge][cg]||\n 
+    V:2 \n K:C bass \n  [G,,G,][G,,B,][G,,D][G,,G][G,,B,,][G,,D,][G,,G,][G,,B,][G,,D]|| [D,F,][D,A,][D,D][D,F][D,A][D,D,][D,F,][D,A,][D,D][D,F]|| [F,F,][F,A,][F,C][F,F][F,A][F,F,][F,A,][F,C][F,F]||[CC][CE][CG][CC][CE]||`
+    ABCJS.renderAbc("note",abcNotation);
+</script>
+</body>
+</html>
